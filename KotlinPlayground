@@ -1,0 +1,32 @@
+fun main() {
+/* * * * * * *aula 1 - Tipos variaveis* * * * * * */
+    var usuario = "Rafael Debroi"
+    //usuario = "Jose"
+    val idade = 18//o val nao altera o valor 
+  	//idade = 17 
+    var salario = 100
+    var bonus = 20
+    var texto: String = "Desenvolvendo em kotlin"
+    var total = salario + bonus
+   
+/* * * * * * *  aula 2 - Variaveis  * * * * * * */ 
+    
+    //kotlin define sozinha o tipo da variavel
+      var numeroInteiro: Int = 10
+      var numeroLong: Long =10000L
+      var numero: Double = 3.555555555555 //exemplos
+      var numero2: Float = 5.3f
+      var Texto: String  = "Jamilton é professor "
+      var resultado: Boolean = false
+    
+    
+/* * * * * * *  aula 3- Arrays  * * * * * * */
+    
+     var nomes = arrayOf("jorge","Delamura","Sandra","Rafael")
+    //digite o numero de acordo com a sequencia de pessoas 
+    //ex jorge = 0 , Delamura = 1 ,sandra = 2 e etc 
+     var numeros = intArrayOf(20, 30, 40)
+   	 nomes[0]="Pedro"    
+     println(nomes[0]) 
+  
+}
