@@ -1,0 +1,15 @@
+//Funcoes 
+fun somar (numero1: Int, Numero2 : Int)
+//fun exibirMensagem(nome: String, idade : Int){
+    //bloco de codigos que execulta 
+    
+    var total = numero1 + nuemero2 
+    return total
+}
+
+fun main(args: Array<String>) {
+   var resultado = somar(10,5)
+   println(resultado)
+    //exibirMensagem("Fael", 28)
+   
+}
