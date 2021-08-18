@@ -1,0 +1,21 @@
+  
+    //metodos
+    fun abrirJanela(){
+        println("Abrir Janela")
+    }
+    
+}
+
+fun main(args: Array<String>) {
+    
+    val casa = Casa()
+    casa.cor = "Amarela"
+    casa.abrirJanela()
+    
+    println(casa.cor)
+    
+    /*val casa2 = Casa()
+    casa2.cor="vermelha"*/
+    
+   
+}
