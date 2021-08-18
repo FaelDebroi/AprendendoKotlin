@@ -1,0 +1,35 @@
+class Casa{
+    
+    //Propiedades
+    var cor: String = ""
+    
+    //metodos
+    fun abrirJanela(qtdJanelas : Int){
+        println("Abrir Janela total:$qtdJanelas")
+        
+    }
+    fun abrirPorta(nome : String){
+        println("Abrir Porta  da casa do $nome")
+    }
+   
+    fun abrirCasa(){
+      this.abrirPorta("Rafael Debroi") 
+      this.abrirJanela(2)
+   }
+       
+}
+
+fun main(args: Array<String>) {
+    
+    val casa = Casa()
+    casa.cor = "Amarela"
+    casa.abrirCasa()
+    //casa.abrirCasa()
+   
+    
+    
+    /*val casa2 = Casa()
+    casa2.cor="vermelha"*/
+    
+   
+}
