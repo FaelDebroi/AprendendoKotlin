@@ -1,0 +1,48 @@
+class Casa(var cor: String, var vagasGaragem: Int){
+    
+    /*//Propriedades
+    var cor: String = ""
+    var vagasGaragem: Int = 0
+    
+    
+    /**construtor secundario**/
+    constructor(cor: String, vagasGaragem: Int){
+        this.cor = cor
+        this.vagasGaragem = vagasGaragem
+    }*/
+    
+    /*
+     /**construtor secundario**/
+    init{
+        this.cor = cor
+        this.vagasGaragem = vagasGaragem
+    }*/
+    
+    //metodos
+    fun detalhesCasa(){
+        println("A casa tem a cor: $cor, vagas:$vagasGaragem")
+    }
+  
+    /*fun abrirJanela(qtdJanelas : Int){
+        println("Abrir Janela total:$qtdJanelas")
+        
+    }
+    fun abrirPorta(nome : String){
+        println("Abrir Porta  da casa do $nome")
+    }
+   
+    fun abrirCasa(){
+      this.abrirPorta("Rafael Debroi") 
+      this.abrirJanela(2)
+   }*/
+       
+}
+
+fun main(args: Array<String>) {
+    
+    
+	val casa = Casa("branco",2)
+     
+    
+    casa.detalhesCasa()
+}
